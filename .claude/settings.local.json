@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($g = \"C:\\\\Users\\\\nate\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\Godot_v4.6.3-stable_win64.exe\"; $p = \"C:\\\\Users\\\\nate\\\\Code\\\\Super Brawlers\"; \"=== IMPORT/PARSE CHECK ===\"; & $g --headless --editor --quit --path $p 2>&1 | Out-String; \"=== RUN GAME 600f \\(Purple P1 vs AI Green\\) ===\"; & $g --headless --path $p res://scenes/Game.tscn --quit-after 600 2>&1 | Out-String; \"=== RUN CHARSELECT 60f ===\"; & $g --headless --path $p res://scenes/CharSelect.tscn --quit-after 60 2>&1 | Out-String)",
+      "Bash(gh --version)",
+      "Bash(git --version)",
+      "Bash(winget search *)",
+      "Bash(winget install *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
